@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Styles</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        h1 {
+            font-size: 24px;
+            color: #00008b;
+        }
+        p {
+            font-size: 14px;
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .bold {
+            font-weight: bold;
+            background-color: #ffccff;
+        }
+        .large-text {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1><u>TABLES</u></h1>
+    <h2>CSS Styles</h2>
+    <p>The CSS properties for tables and cells is increased over that in html2fpdf. It includes recognition of THEAD, TH and allows property of background-color to be set for TR. See below for other facilities such as autosizing, and rotation.</p>
+
+    <table>
+        <tr>
+            <th>Row 1</th>
+            <th>This is data</th>
+            <th>This is data</th>
+        </tr>
+        <tr>
+            <td>Row 2</td>
+            <td>
+                This is data p<br>
+                <p>This is data out of p</p>
+                <p class="bold">This is bold data p</p>
+                This is bold data out of p<br>
+                This is normal data after br
+            </td>
+            <td class="large-text">This is large text</td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <h3>Lists in a Table</h3>
+                <div>This is data div</div>
+                <div>This is data out of div</div>
+                <div>This is data div</div>
+                <div>This is data out of div</div>
+            </td>
+        </tr>
+        <tr>
+            <td>Row 3</td>
+            <td>This is long data</td>
+            <td>This is data</td>
+        </tr>
+        <tr>
+            <td>Row 4 <td></td></td>
+            <td>This is data</td>
+            <td>This is data</td>
+        </tr>
+        <tr>
+            <td>Row 5</td>
+            <td>Also data</td>
+            <td>Also data</td>
+        </tr>
+        <tr>
+            <td>Row 6</td>
+            <td>Also data</td>
+            <td>Also data</td>
+        </tr>
+        <tr>
+            <td>Row 7</td>
+            <td>Also data</td>
+            <td>Also data</td>
+        </tr>
+        <tr>
+            <td>Row 8</td>
+            <td>Also data</td>
+            <td>Also data</td>
+        </tr>
+    </table>
+</body>
+</html>
